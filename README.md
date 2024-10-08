@@ -12,4 +12,18 @@ To ensure basic functionality of the Worker Node, your system should meet the fo
 - Register Account : https://sixgpt.xyz/
 - Connect New Wallet
 - Sign Via Account Google
-Claim Faucet : https://faucet.vana.org/satori
+- Claim Faucet : https://faucet.vana.org/satori
+
+  ## Go To Run Via VPS
+  
+  ```
+  bash <(curl -s https://raw.githubusercontent.com/ZonaAirdrop/sixgpt.sh/main/Sixgpt)
+
+- Sumbit Privat key
+- Network: satori
+
+  ## Check Logs
+
+```
+cd sixgpt
+docker compose logs -fn 100
